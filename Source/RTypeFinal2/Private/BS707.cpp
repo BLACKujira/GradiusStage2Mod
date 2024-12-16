@@ -1,0 +1,28 @@
+#include "BS707.h"
+
+ABS707::ABS707(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+    this->bCanBeInCluster = false;
+    this->Life.AddDefaulted(8);
+    this->LifeMax.AddDefaulted(8);
+    this->Defence.AddDefaulted(8);
+    this->Power.AddDefaulted(8);
+    this->Score.AddDefaulted(8);
+    this->PrimitiveComponentA.AddDefaulted(1);
+    this->PrimitiveComponentB.AddDefaulted(1);
+    this->PrimitiveComponentC.AddDefaulted(1);
+    this->MeshComponent.AddDefaulted(1);
+    this->EffectComponent.AddDefaulted(9);
+    this->AudioComponent.AddDefaulted(5);
+    this->bIsMapObject = true;
+    this->ParamBS707 = NULL;
+    this->Tractor1 = NULL;
+    this->Tractor2 = NULL;
+}
+
+void ABS707::OnEndLoop() {
+}
+
+void ABS707::EventCmdDestroy() {
+}
+
+

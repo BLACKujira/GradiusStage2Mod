@@ -1,0 +1,5 @@
+#include "TITLE_DEF_TABLE.h"
+
+FTITLE_DEF_TABLE::FTITLE_DEF_TABLE() {
+}
+

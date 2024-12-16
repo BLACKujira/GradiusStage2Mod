@@ -1,0 +1,5 @@
+#include "KEYD_POBJ_ASSET.h"
+
+FKEYD_POBJ_ASSET::FKEYD_POBJ_ASSET() {
+}
+

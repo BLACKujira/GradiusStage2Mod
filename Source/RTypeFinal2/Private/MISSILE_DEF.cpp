@@ -1,0 +1,5 @@
+#include "MISSILE_DEF.h"
+
+FMISSILE_DEF::FMISSILE_DEF() {
+}
+

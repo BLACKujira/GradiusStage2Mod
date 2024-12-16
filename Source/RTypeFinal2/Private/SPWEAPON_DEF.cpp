@@ -1,0 +1,5 @@
+#include "SPWEAPON_DEF.h"
+
+FSPWEAPON_DEF::FSPWEAPON_DEF() {
+}
+

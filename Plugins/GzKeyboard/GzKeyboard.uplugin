@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GzKeyboard",
+	"Description": "keyboard umg",
+	"Category": "Other",
+	"CreatedBy": "maru",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GzKeyboardModule",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

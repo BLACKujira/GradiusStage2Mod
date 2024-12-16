@@ -1,0 +1,5 @@
+#include "PLAYER_DEF_TABLE.h"
+
+FPLAYER_DEF_TABLE::FPLAYER_DEF_TABLE() {
+}
+

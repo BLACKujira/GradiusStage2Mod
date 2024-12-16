@@ -1,0 +1,5 @@
+#include "DECAL_DEF_TABLE.h"
+
+FDECAL_DEF_TABLE::FDECAL_DEF_TABLE() {
+}
+

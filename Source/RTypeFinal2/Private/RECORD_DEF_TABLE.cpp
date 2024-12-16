@@ -1,0 +1,5 @@
+#include "RECORD_DEF_TABLE.h"
+
+FRECORD_DEF_TABLE::FRECORD_DEF_TABLE() {
+}
+

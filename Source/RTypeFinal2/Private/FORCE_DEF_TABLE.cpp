@@ -1,0 +1,5 @@
+#include "FORCE_DEF_TABLE.h"
+
+FFORCE_DEF_TABLE::FFORCE_DEF_TABLE() {
+}
+

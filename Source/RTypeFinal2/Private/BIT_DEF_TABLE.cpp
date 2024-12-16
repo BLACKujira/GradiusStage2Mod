@@ -1,0 +1,5 @@
+#include "BIT_DEF_TABLE.h"
+
+FBIT_DEF_TABLE::FBIT_DEF_TABLE() {
+}
+

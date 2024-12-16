@@ -1,0 +1,6 @@
+#include "KEYD_SUIT_ASSET.h"
+
+FKEYD_SUIT_ASSET::FKEYD_SUIT_ASSET() {
+    this->ID = ESUIT_ID::SUIT_ID_00;
+}
+

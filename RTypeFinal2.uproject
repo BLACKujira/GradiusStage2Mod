@@ -1,0 +1,340 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.26Chaos",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "RTypeFinal2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "WinDualShock",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+			]
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosSolverPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosNiagara",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "GzKeyboard",
+			"Enabled": true
+		},
+		{
+			"Name": "MfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationBudgetAllocator",
+			"Enabled": true
+		},
+		{
+			"Name": "TraceDataFilters",
+			"Enabled": true
+		},
+		{
+			"Name": "TraceSourceFilters",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayInsights",
+			"Enabled": true
+		},
+		{
+			"Name": "SCUE4",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/cff7ca410375488fb0d13221b7446041"
+		},
+		{
+			"Name": "MagicLeap",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Mac",
+				"Win64"
+			]
+		},
+		{
+			"Name": "MagicLeapMedia",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin"
+			]
+		},
+		{
+			"Name": "MLSDK",
+			"Enabled": false
+		},
+		{
+			"Name": "MagicLeapPassableWorld",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Mac",
+				"Win64"
+			]
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "CodeEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "CodeView",
+			"Enabled": true
+		},
+		{
+			"Name": "PostSplashScreen",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"XboxOne"
+			]
+		},
+		{
+			"Name": "ShallowWater",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "WebAuth",
+			"Enabled": true
+		},
+		{
+			"Name": "GoogleCloudMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "UdpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "TcpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "LuminPlatformFeatures",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin"
+			]
+		},
+		{
+			"Name": "LauncherChunkInstaller",
+			"Enabled": false
+		},
+		{
+			"Name": "SlateInsights",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamController",
+			"Enabled": true
+		},
+		{
+			"Name": "CharacterAI",
+			"Enabled": false
+		},
+		{
+			"Name": "UObjectPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "WindowsDeviceProfileSelector",
+			"Enabled": true
+		},
+		{
+			"Name": "ContentBrowserFileDataSource",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintStats",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintFileUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "DLC_DECAL_801",
+			"Enabled": true
+		},
+		{
+			"Name": "DLC_DECAL_802",
+			"Enabled": true
+		},
+		{
+			"Name": "DLC_DECAL_803",
+			"Enabled": true
+		},
+		{
+			"Name": "DLC_DECAL_804",
+			"Enabled": true
+		},
+		{
+			"Name": "DLC_DECAL_805",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0110",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0301",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0302",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0303",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0304",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0305",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0306",
+			"Enabled": true
+		},
+		{
+			"Name": "ST_0307",
+			"Enabled": true
+		},
+		{
+			"Name": "SHIP0001",
+			"Enabled": true
+		},
+		{
+			"Name": "SHIP0002",
+			"Enabled": true
+		},
+		{
+			"Name": "SHIP0003",
+			"Enabled": true
+		},
+		{
+			"Name": "SHIP0004",
+			"Enabled": true
+		},
+		{
+			"Name": "ITEM0001",
+			"Enabled": true
+		},
+		{
+			"Name": "ITEM0002",
+			"Enabled": true
+		},
+		{
+			"Name": "ITEM0003",
+			"Enabled": true
+		},
+		{
+			"Name": "ITEM0004",
+			"Enabled": true
+		},
+		{
+			"Name": "AlembicHairImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"PS4",
+		"PS5",
+		"Switch",
+		"XboxOne",
+		"XboxOneGDK",
+		"XSX",
+		"Windows",
+		"XboxCommonGDK",
+		"WindowsNoEditor"
+	]
+}

@@ -1,0 +1,5 @@
+#include "PCMN_DEF_TABLE.h"
+
+FPCMN_DEF_TABLE::FPCMN_DEF_TABLE() {
+}
+

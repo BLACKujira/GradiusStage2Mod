@@ -1,0 +1,5 @@
+#include "SUIT_DEF_TABLE.h"
+
+FSUIT_DEF_TABLE::FSUIT_DEF_TABLE() {
+}
+

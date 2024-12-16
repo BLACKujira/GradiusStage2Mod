@@ -1,0 +1,5 @@
+#include "MEDAL_DEF_TABLE.h"
+
+FMEDAL_DEF_TABLE::FMEDAL_DEF_TABLE() {
+}
+

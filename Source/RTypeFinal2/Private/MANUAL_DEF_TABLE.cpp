@@ -1,0 +1,5 @@
+#include "MANUAL_DEF_TABLE.h"
+
+FMANUAL_DEF_TABLE::FMANUAL_DEF_TABLE() {
+}
+

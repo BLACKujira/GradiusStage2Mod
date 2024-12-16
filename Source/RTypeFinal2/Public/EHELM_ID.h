@@ -1,0 +1,46 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EHELM_ID.generated.h"
+
+UENUM(BlueprintType)
+enum class EHELM_ID : uint8 {
+    HELM_ID_00,
+    HELM_ID_01,
+    HELM_ID_02,
+    HELM_ID_03,
+    HELM_ID_04,
+    HELM_ID_05,
+    HELM_ID_06,
+    HELM_ID_07,
+    HELM_ID_08,
+    HELM_ID_09,
+    HELM_ID_10,
+    HELM_ID_20,
+    HELM_ID_21,
+    HELM_ID_22,
+    HELM_ID_23,
+    HELM_ID_24,
+    HELM_ID_25,
+    HELM_ID_26,
+    HELM_ID_27,
+    HELM_ID_28,
+    HELM_ID_29,
+    HELM_ID_30,
+    HELM_ID_40,
+    HELM_ID_41,
+    HELM_ID_42,
+    HELM_ID_43,
+    HELM_ID_44,
+    HELM_ID_45,
+    HELM_ID_46,
+    HELM_ID_47,
+    HELM_ID_48,
+    HELM_ID_49,
+    HELM_ID_50,
+    HELM_ID_61,
+    HELM_ID_62,
+    HELM_ID_63,
+    HELM_ID_65,
+    NUM,
+};
+

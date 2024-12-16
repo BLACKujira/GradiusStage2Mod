@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GzKeyboardModule.cpp.obj": [
+			"GzKeyboardComponent.cpp.obj",
+			"GzKeyboardFunctionLibrary.cpp.obj",
+			"GzKeyboardModuleModule.cpp.obj",
+			"GzKeyboardOption.cpp.obj"
+		],
+		"Module.GzKeyboardModule.gen.cpp.obj": [
+			"EGzKeyboardResult.gen.cpp.obj",
+			"EGzKeyboardType.gen.cpp.obj",
+			"GzKeyboardComponent.gen.cpp.obj",
+			"GzKeyboardFinishedDelegate.gen.cpp.obj",
+			"GzKeyboardFunctionLibrary.gen.cpp.obj",
+			"GzKeyboardInterface.gen.cpp.obj",
+			"GzKeyboardModule.init.gen.cpp.obj",
+			"GzKeyboardOption.gen.cpp.obj"
+		]
+	}
+}

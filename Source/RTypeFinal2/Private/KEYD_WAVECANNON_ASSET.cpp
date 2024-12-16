@@ -1,0 +1,10 @@
+#include "KEYD_WAVECANNON_ASSET.h"
+
+FKEYD_WAVECANNON_ASSET::FKEYD_WAVECANNON_ASSET() {
+    this->ID = EWAVECANNON_NO::WC_STANDARD;
+    this->SubClass = NULL;
+    this->EnvSubclass = NULL;
+    this->Hybrid_A = EWAVECANNON_NO::WC_STANDARD;
+    this->Hybrid_B = EWAVECANNON_NO::WC_STANDARD;
+}
+

@@ -1,0 +1,6 @@
+#include "MBRACK_DEF_ROWBASE.h"
+
+FMBRACK_DEF_ROWBASE::FMBRACK_DEF_ROWBASE() {
+    this->ID = EBODY_NO::BD_R9A;
+}
+

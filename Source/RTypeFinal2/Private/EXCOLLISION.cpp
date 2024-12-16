@@ -1,0 +1,5 @@
+#include "EXCOLLISION.h"
+
+FEXCOLLISION::FEXCOLLISION() {
+}
+

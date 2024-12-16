@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GzOggPlayer",
+	"Description": "Ogg Player",
+	"Category": "Other",
+	"CreatedBy": "maru",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GzOggPlayer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

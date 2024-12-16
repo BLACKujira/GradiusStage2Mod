@@ -1,0 +1,5 @@
+#include "POBJ_DEF_TABLE.h"
+
+FPOBJ_DEF_TABLE::FPOBJ_DEF_TABLE() {
+}
+

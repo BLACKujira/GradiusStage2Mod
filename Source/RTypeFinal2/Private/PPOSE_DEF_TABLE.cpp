@@ -1,0 +1,5 @@
+#include "PPOSE_DEF_TABLE.h"
+
+FPPOSE_DEF_TABLE::FPPOSE_DEF_TABLE() {
+}
+

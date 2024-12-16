@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GzOggPlayer.cpp.obj": [
+			"GzOggPlayerModule.cpp.obj",
+			"SoundNodeOggPlayer.cpp.obj"
+		],
+		"Module.GzOggPlayer.gen.cpp.obj": [
+			"GzOggPlayer.init.gen.cpp.obj",
+			"SoundNodeOggPlayer.gen.cpp.obj"
+		]
+	}
+}

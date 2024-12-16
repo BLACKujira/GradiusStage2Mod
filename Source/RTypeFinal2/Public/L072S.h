@@ -1,0 +1,34 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "LBase.h"
+#include "L072S.generated.h"
+
+class UL072SEnv;
+class UNiagaraComponent;
+class USceneComponent;
+
+UCLASS(Blueprintable)
+class AL072S : public ALBase {
+    GENERATED_BODY()
+public:
+private:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
+    USceneComponent* MountRoot;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
+    USceneComponent* LaserRoot;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
+    UNiagaraComponent* NS_Base;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
+    USceneComponent* nowRoot;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UL072SEnv* Env;
+    
+public:
+    AL072S(const FObjectInitializer& ObjectInitializer);
+
+};
+

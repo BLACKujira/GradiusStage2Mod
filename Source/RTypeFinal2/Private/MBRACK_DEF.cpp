@@ -1,0 +1,5 @@
+#include "MBRACK_DEF.h"
+
+FMBRACK_DEF::FMBRACK_DEF() {
+}
+

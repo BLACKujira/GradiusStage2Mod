@@ -1,0 +1,5 @@
+#include "BYDO_DEF_TABLE.h"
+
+FBYDO_DEF_TABLE::FBYDO_DEF_TABLE() {
+}
+

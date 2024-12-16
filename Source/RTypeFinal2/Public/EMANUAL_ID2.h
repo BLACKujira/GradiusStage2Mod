@@ -1,0 +1,35 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EMANUAL_ID2.generated.h"
+
+UENUM(BlueprintType)
+enum class EMANUAL_ID2 : uint8 {
+    MANUAL_ID_261,
+    MANUAL_ID_262,
+    MANUAL_ID_263,
+    MANUAL_ID_264,
+    MANUAL_ID_265,
+    MANUAL_ID_266,
+    MANUAL_ID_267,
+    MANUAL_ID_268,
+    MANUAL_ID_269,
+    MANUAL_ID_270,
+    MANUAL_ID_271,
+    MANUAL_ID_272,
+    MANUAL_ID_273,
+    MANUAL_ID_274,
+    MANUAL_ID_275,
+    MANUAL_ID_276,
+    MANUAL_ID_277,
+    MANUAL_ID_278,
+    MANUAL_ID_279,
+    MANUAL_ID_280,
+    MANUAL_ID_281,
+    MANUAL_ID_282,
+    MANUAL_ID_283,
+    MANUAL_ID_284,
+    MANUAL_ID_285,
+    MANUAL_ID_286,
+    NUM,
+};
+

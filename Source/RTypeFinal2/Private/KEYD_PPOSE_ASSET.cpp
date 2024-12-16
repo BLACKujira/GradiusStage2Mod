@@ -1,0 +1,6 @@
+#include "KEYD_PPOSE_ASSET.h"
+
+FKEYD_PPOSE_ASSET::FKEYD_PPOSE_ASSET() {
+    this->ID = EPPOSE_ID::PPOSE_ID_00;
+}
+

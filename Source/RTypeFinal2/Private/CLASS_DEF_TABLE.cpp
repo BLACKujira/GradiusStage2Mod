@@ -1,0 +1,5 @@
+#include "CLASS_DEF_TABLE.h"
+
+FCLASS_DEF_TABLE::FCLASS_DEF_TABLE() {
+}
+

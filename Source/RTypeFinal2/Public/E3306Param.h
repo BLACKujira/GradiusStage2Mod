@@ -1,0 +1,64 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EParamCapsule.h"
+#include "EnemyDifficultyFloat.h"
+#include "EnemyDifficultyInt32.h"
+#include "EnemyParam.h"
+#include "Templates/SubclassOf.h"
+#include "E3306Param.generated.h"
+
+class UAnimInstance;
+class US000Param;
+class USkeletalMesh;
+class USoundCue;
+
+UCLASS(Blueprintable)
+class UE3306Param : public UEnemyParam {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FEnemyDifficultyInt32 Life;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    int32 Defence;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    int32 Score;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FEParamCapsule CollisionA;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FEParamCapsule CollisionB;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FEParamCapsule CollisionC;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    USkeletalMesh* Body_Mesh;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TSubclassOf<UAnimInstance> Body_AnimBP;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    float NoShootLength;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FEnemyDifficultyFloat ShootInterval;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    US000Param* AttackParam;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    USoundCue* DamageSound;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    USoundCue* DeathSound;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    float DeathTime;
+    
+    UE3306Param();
+
+};
+

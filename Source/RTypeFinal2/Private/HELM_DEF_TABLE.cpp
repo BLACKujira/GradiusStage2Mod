@@ -1,0 +1,5 @@
+#include "HELM_DEF_TABLE.h"
+
+FHELM_DEF_TABLE::FHELM_DEF_TABLE() {
+}
+
