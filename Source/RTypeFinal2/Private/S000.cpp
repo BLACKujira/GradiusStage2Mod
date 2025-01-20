@@ -1,8 +1,13 @@
 #include "S000.h"
 #include "EEnemyType.h"
 #include "ExSphereComponent.h"
+#include "NiagaraComponent.h"
 
 AS000::AS000(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UExSphereComponent>(TEXT("CollisionC"))) {
+    UExSphereComponent* CollisionC = CreateDefaultSubobject<UExSphereComponent>(TEXT("CollisionC"));
+    UNiagaraComponent* EffBody = CreateDefaultSubobject<UNiagaraComponent>(TEXT("EffBody"));
+    UNiagaraComponent* effHit = CreateDefaultSubobject<UNiagaraComponent>(TEXT("effHit"));
+
     this->EnemyType = EEnemyType::BULLET;
     this->Life.AddDefaulted(8);
     this->LifeMax.AddDefaulted(8);
@@ -11,10 +16,14 @@ AS000::AS000(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitiali
     this->Score.AddDefaulted(8);
     this->PrimitiveComponentA.AddDefaulted(1);
     this->PrimitiveComponentB.AddDefaulted(1);
-    this->PrimitiveComponentC.AddDefaulted(1);
+    this->PrimitiveComponentC.Add(CollisionC);
     this->MeshComponent.AddDefaulted(1);
-    this->EffectComponent.AddDefaulted(2);
+    this->EffectComponent.Add(EffBody);
+    this->EffectComponent.Add(effHit);
     this->ParentEnemy = NULL;
+
+    // 设置 CollisionC 为根组件
+    RootComponent = CollisionC;
 }
 
 void AS000::RejectOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {

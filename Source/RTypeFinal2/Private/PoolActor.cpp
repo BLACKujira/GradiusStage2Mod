@@ -17,5 +17,3 @@ void APoolActor::Created(UObject* _param) {
 
 void APoolActor::Borned(UObject* _param) {
 }
-
-

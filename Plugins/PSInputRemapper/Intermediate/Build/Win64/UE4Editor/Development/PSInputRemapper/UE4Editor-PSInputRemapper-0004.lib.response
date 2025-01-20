@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PSInputRemapper-0004.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Project_Unreal\TestRTF2Stage\Intermediate\Build\Win64\RTypeFinal2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Project_Unreal\TestRTF2Stage\Plugins\PSInputRemapper\Intermediate\Build\Win64\UE4Editor\Development\PSInputRemapper\Module.PSInputRemapper.cpp.obj"
+"E:\Project_Unreal\TestRTF2Stage\Plugins\PSInputRemapper\Intermediate\Build\Win64\UE4Editor\Development\PSInputRemapper\Module.PSInputRemapper.gen.cpp.obj"
+"E:\Project_Unreal\TestRTF2Stage\Plugins\PSInputRemapper\Intermediate\Build\Win64\UE4Editor\Development\PSInputRemapper\Default.rc2.res"
+/OUT:"E:\Project_Unreal\TestRTF2Stage\Plugins\PSInputRemapper\Intermediate\Build\Win64\UE4Editor\Development\PSInputRemapper\UE4Editor-PSInputRemapper-0004.lib"
+/INCLUDE:IMPLEMENT_MODULE_PSInputRemapper

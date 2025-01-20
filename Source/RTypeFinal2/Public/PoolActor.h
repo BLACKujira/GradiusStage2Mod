@@ -26,6 +26,5 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void Borned(UObject* _param);
-    
 };
 

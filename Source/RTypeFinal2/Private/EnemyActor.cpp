@@ -22,5 +22,3 @@ AEnemyActor::AEnemyActor(const FObjectInitializer& ObjectInitializer) : Super(Ob
     this->EnemyLand = NULL;
     this->EnemyHit = NULL;
 }
-
-

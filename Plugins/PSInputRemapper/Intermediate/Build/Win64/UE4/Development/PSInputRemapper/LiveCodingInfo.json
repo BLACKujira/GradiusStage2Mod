@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PSInputRemapper.cpp.obj": [
+			"GamePadCursor.cpp.obj",
+			"PSGamepadFunctionLibrary.cpp.obj",
+			"PSInputFunctionLibrary.cpp.obj",
+			"PSInputRemapperModule.cpp.obj",
+			"PSInputWrapper.cpp.obj"
+		],
+		"Module.PSInputRemapper.gen.cpp.obj": [
+			"EPSInputType.gen.cpp.obj",
+			"GamePadCursor.gen.cpp.obj",
+			"PSGamepadFunctionLibrary.gen.cpp.obj",
+			"PSInputFunctionLibrary.gen.cpp.obj",
+			"PSInputRemapper.init.gen.cpp.obj",
+			"PSInputWrapper.gen.cpp.obj"
+		]
+	}
+}

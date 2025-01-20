@@ -89,5 +89,6 @@ enum class EStageId : uint8 {
     ADD3_END = ST_0119S,
     ST_0119 = ST_0119M,
     ST_0118 = ST_0118M,
+    ST_2500 = 100,
 };
 

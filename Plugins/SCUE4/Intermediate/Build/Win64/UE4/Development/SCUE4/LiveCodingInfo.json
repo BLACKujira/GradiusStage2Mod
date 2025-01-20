@@ -1,0 +1,47 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SCUE4.cpp.obj": [
+			"SafeBool.cpp.obj",
+			"SafeByte.cpp.obj",
+			"SafeColor.cpp.obj",
+			"SafeFloat.cpp.obj",
+			"SafeGameInstance.cpp.obj",
+			"SafeGameInstanceSubsystem.cpp.obj",
+			"SafeInt.cpp.obj",
+			"SafeName.cpp.obj",
+			"SafeRotator.cpp.obj",
+			"SafeString.cpp.obj",
+			"SafeText.cpp.obj",
+			"SafeTransform.cpp.obj",
+			"SafeVector2D.cpp.obj",
+			"SafeVector3D.cpp.obj",
+			"SafeVector4D.cpp.obj",
+			"SCLibrary.cpp.obj",
+			"SCUE4Module.cpp.obj",
+			"SCUE4Settings.cpp.obj"
+		],
+		"Module.SCUE4.gen.1_of_2.cpp.obj": [
+			"SafeBool.gen.cpp.obj",
+			"SafeByte.gen.cpp.obj",
+			"SafeColor.gen.cpp.obj",
+			"SafeFloat.gen.cpp.obj",
+			"SafeGameInstance.gen.cpp.obj",
+			"SafeGameInstanceSubsystem.gen.cpp.obj",
+			"SafeInt.gen.cpp.obj",
+			"SafeName.gen.cpp.obj",
+			"SafeRotator.gen.cpp.obj",
+			"SafeString.gen.cpp.obj",
+			"SafeText.gen.cpp.obj",
+			"SafeTransform.gen.cpp.obj",
+			"SafeVector2D.gen.cpp.obj",
+			"SafeVector3D.gen.cpp.obj",
+			"SafeVector4D.gen.cpp.obj",
+			"SCLibrary.gen.cpp.obj"
+		],
+		"Module.SCUE4.gen.2_of_2.cpp.obj": [
+			"SCUE4.init.gen.cpp.obj",
+			"SCUE4Settings.gen.cpp.obj"
+		]
+	}
+}

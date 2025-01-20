@@ -25,6 +25,7 @@ public:
     
     AE7302(const FObjectInitializer& ObjectInitializer);
 
+    UStaticMeshComponent* mesh;
 
     // Fix for true pure virtual functions not being implemented
     UFUNCTION()

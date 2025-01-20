@@ -28,10 +28,10 @@
 /wd4244
 /wd4838
 /I .
-/I E:\Project_Unreal\RTypeFinal2\Plugins\GzOggPlayer\Source\GzOggPlayer\Private
-/I E:\Project_Unreal\RTypeFinal2\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Inc\GzOggPlayer
-/I E:\Project_Unreal\RTypeFinal2\Plugins\GzOggPlayer\Source
-/I E:\Project_Unreal\RTypeFinal2\Plugins\GzOggPlayer\Source\GzOggPlayer\Public
+/I E:\Project_Unreal\TestRTF2Stage\Plugins\GzOggPlayer\Source\GzOggPlayer\Private
+/I E:\Project_Unreal\TestRTF2Stage\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Inc\GzOggPlayer
+/I E:\Project_Unreal\TestRTF2Stage\Plugins\GzOggPlayer\Source
+/I E:\Project_Unreal\TestRTF2Stage\Plugins\GzOggPlayer\Source\GzOggPlayer\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -102,6 +102,7 @@
 /I Runtime\Experimental\ChaosCore\Public
 /I ThirdParty\Intel
 /I Runtime\Experimental\Voronoi\Public
+/I ThirdParty
 /I Runtime\SignalProcessing\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioExtensions
 /I Runtime\AudioExtensions\Public
@@ -181,7 +182,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData
 /I Editor\ContentBrowserData\Public
 /I Developer\CollectionManager\Public
-/I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I Runtime\NetworkFileSystem\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMG
@@ -198,13 +198,6 @@
 /I Runtime\PropertyPath\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem
 /I Runtime\NavigationSystem\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionEngine
-/I Runtime\Experimental\GeometryCollectionEngine\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemEngine
-/I Runtime\Experimental\FieldSystem\Source
-/I Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolverEngine
-/I Runtime\Experimental\ChaosSolverEngine\Public
 /I Developer\MeshBuilder\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings
 /I Runtime\MaterialShaderQualitySettings\Classes
@@ -254,18 +247,30 @@
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I ThirdParty\PhysX3\APEX_1.4\include
+/I ThirdParty\PhysX3\APEX_1.4\include\clothing
+/I ThirdParty\PhysX3\APEX_1.4\include\nvparameterized
+/I ThirdParty\PhysX3\APEX_1.4\include\legacy
+/I ThirdParty\PhysX3\APEX_1.4\include\PhysX3
+/I ThirdParty\PhysX3\APEX_1.4\common\include
+/I ThirdParty\PhysX3\APEX_1.4\common\include\autogen
+/I ThirdParty\PhysX3\APEX_1.4\framework\include
+/I ThirdParty\PhysX3\APEX_1.4\framework\include\autogen
+/I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
+/I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
+/I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
+/I "d:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "D:\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "D:\Windows Kits\10\include\10.0.19041.0\shared"
 /I "D:\Windows Kits\10\include\10.0.19041.0\um"
 /I "D:\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"E:\Project_Unreal\RTypeFinal2\Intermediate\Build\Win64\RTypeFinal2Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\Project_Unreal\RTypeFinal2\Intermediate\Build\Win64\RTypeFinal2Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Project_Unreal\RTypeFinal2\Intermediate\Build\Win64\RTypeFinal2Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Project_Unreal\RTypeFinal2\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Development\GzOggPlayer\Module.GzOggPlayer.cpp"
-/FI"E:\Project_Unreal\RTypeFinal2\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Development\GzOggPlayer\Definitions.GzOggPlayer.h"
-/Fo"E:\Project_Unreal\RTypeFinal2\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Development\GzOggPlayer\Module.GzOggPlayer.cpp.obj"
+/FI"E:\Project_Unreal\TestRTF2Stage\Intermediate\Build\Win64\RTypeFinal2Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"E:\Project_Unreal\TestRTF2Stage\Intermediate\Build\Win64\RTypeFinal2Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\Project_Unreal\TestRTF2Stage\Intermediate\Build\Win64\RTypeFinal2Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\Project_Unreal\TestRTF2Stage\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Development\GzOggPlayer\Module.GzOggPlayer.cpp"
+/FI"E:\Project_Unreal\TestRTF2Stage\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Development\GzOggPlayer\Definitions.GzOggPlayer.h"
+/Fo"E:\Project_Unreal\TestRTF2Stage\Plugins\GzOggPlayer\Intermediate\Build\Win64\UE4Editor\Development\GzOggPlayer\Module.GzOggPlayer.cpp.obj"
 /TP
 /GR-
 /W4
