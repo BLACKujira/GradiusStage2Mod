@@ -8,6 +8,8 @@
 # Do not ignore current project's `.uproject`.
 !/*.uproject
 !/Readme.md
+!/debug.py
+!/RTypeFinal2.sln
 
 # Do not ignore source, config and plugins dirs.
 !/Source/**
