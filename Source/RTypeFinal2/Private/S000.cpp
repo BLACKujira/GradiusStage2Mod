@@ -5,6 +5,7 @@
 
 AS000::AS000(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UExSphereComponent>(TEXT("CollisionC"))) {
     UExSphereComponent* CollisionC = CreateDefaultSubobject<UExSphereComponent>(TEXT("CollisionC"));
+    UExSphereComponent* CollisionA = CreateDefaultSubobject<UExSphereComponent>(TEXT("CollisionA"));
     UNiagaraComponent* EffBody = CreateDefaultSubobject<UNiagaraComponent>(TEXT("EffBody"));
     UNiagaraComponent* effHit = CreateDefaultSubobject<UNiagaraComponent>(TEXT("effHit"));
 
@@ -14,7 +15,7 @@ AS000::AS000(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitiali
     this->Defence.AddDefaulted(8);
     this->Power.AddDefaulted(8);
     this->Score.AddDefaulted(8);
-    this->PrimitiveComponentA.AddDefaulted(1);
+    this->PrimitiveComponentA.Add(CollisionA);
     this->PrimitiveComponentB.AddDefaulted(1);
     this->PrimitiveComponentC.Add(CollisionC);
     this->MeshComponent.AddDefaulted(1);
