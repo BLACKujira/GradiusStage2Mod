@@ -2,7 +2,7 @@
 
 # Bringing MSX Gradius Stage 2 to R-Type Final 2
 
-This mod features a new stage called *"Stage G2.0 Recreation: Stonehenge in Reverse Space."* It recreates the second stage from the original MSX *Gradius* and redesigns the visuals with a "Reverse Space" theme.
+This mod features a new stage called *"Stage G2.0 Reappearance: Countercurrent Stonehenge"* It recreates the second stage from the original MSX *Gradius* and redesigns the visuals with a "Countercurrent Space" theme.
 
 ## Installation Guide
 This stage mod consists of three components: a `LUA Mod`, a `PAK Mod`, and a `Blueprint Mod`. Please refer to the following table for separate installation instructions.
