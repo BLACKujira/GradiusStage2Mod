@@ -2,6 +2,11 @@
 
 这个Mod包含一个新关卡 *「Stage G2.0 重现・逆流空间中的巨石阵」* 。关卡复刻了 MSX 初代《宇宙巡航机》的第二关，并以 "逆流空间" 为主题重新设计了画面。
 
+> ⚠️ **此项目已废弃。**
+>
+> 本Mod的所有最新更新与关卡内容已合并至 [G-Type Origin](https://github.com/BLACKujira/GTypeOrigin) 项目中。
+> 建议前往新仓库获取最新版本与后续更新。
+
 ## 安装指南
 这个关卡Mod由一个`LUA Mod` 、一个 `PAK Mod` 和一个 `Blueprint Mod`组成。请参考下面的表格分别安装它们。
 

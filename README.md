@@ -4,6 +4,12 @@
 
 This mod features a new stage called *"Stage G2.0 Reappearance: Countercurrent Stonehenge"* It recreates the second stage from the original MSX *Gradius* and redesigns the visuals with a "Countercurrent Space" theme.
 
+> ⚠️ **This project is deprecated.**
+>
+> All updates and new stages have been merged into the [G-Type Origin](https://github.com/BLACKujira/GTypeOrigin) project.
+> Please visit the new repository for the latest version and future updates.
+
+
 ## Installation Guide
 This stage mod consists of three components: a `LUA Mod`, a `PAK Mod`, and a `Blueprint Mod`. Please refer to the following table for separate installation instructions.
 
